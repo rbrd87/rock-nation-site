@@ -26,6 +26,10 @@ footer {
     background-size: cover;
     z-index: 10;
   }
+  .navbar-brand {
+    font-size: 28px;
+    font-weight: 500;
+  }
   .dropdown-menu {
     background: url(../images/transparency.png);
     background-color: transparent !important;
@@ -39,9 +43,29 @@ footer {
   .customNav a {
     color: white !important;
   }
+  .customNav img {
+    margin-right: 10px;
+  }
   .navCTA {
     font-size: 15px;
   }
   .nav-item {
     list-style: none;
+  }
+  .rockBackground {
+    background-image: url(../images/rockOn_dark.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+    height: calc(100vh - 25px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .jumboCopy {
+    width: 70%;
+    min-width: 500px;
+    max-width: 700px;
+    color: white;
+    text-align: center;
   }
